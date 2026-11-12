@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Airocle — End-of-Year Client Gifting 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0c222c; --navy:#13303d; --steel:#2f4c59; --mist:#5f7782;
+    --line:#d9e0e3; --paper:#f4f6f7; --white:#fff;
+    --accent:#c9a45c; --good:#2f7d5b; --warn:#b5651d;
+    --r:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Outfit",system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.5;font-size:17px;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:20;background:rgba(12,34,44,.94);backdrop-filter:blur(8px);color:#fff}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:24px}
+  nav .brand{font-weight:600;letter-spacing:.02em;font-size:16px;white-space:nowrap}
+  nav .brand span{opacity:.55;font-weight:400}
+  nav ul{list-style:none;display:flex;gap:26px;font-size:14px;overflow-x:auto}
+  nav a{text-decoration:none;opacity:.75;white-space:nowrap}
+  nav a:hover{opacity:1}
+
+  /* hero */
+  .hero{background:var(--ink);color:#fff;padding:88px 0 96px}
+  .hero .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center}
+  .eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;opacity:.8}
+  .hero h1{font-size:clamp(38px,4.6vw,62px);line-height:1.04;font-weight:600;letter-spacing:-.02em;margin:14px 0 18px}
+  .hero p{font-size:19px;max-width:520px;opacity:.85;font-weight:300}
+  .hero .art{border-radius:var(--r);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+  .hero .art img{width:100%;aspect-ratio:3/2;object-fit:cover}
+  .hero .meta{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:64px;grid-column:1/-1}
+  .hero .meta div{border-top:1px solid rgba(255,255,255,.3);padding-top:12px}
+  .hero .meta b{display:block;font-size:26px;font-weight:600}
+  .hero .meta small{opacity:.7;font-size:14px}
+
+  section{padding:110px 0}
+  section.alt{background:var(--paper)}
+  section.dark{background:var(--ink);color:#fff}
+  .sec-head{max-width:760px;margin-bottom:56px}
+  .sec-head .num{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--mist);font-weight:500}
+  .dark .sec-head .num{color:#8fa6b0}
+  .sec-head h2{font-size:clamp(32px,4vw,48px);line-height:1.08;font-weight:600;letter-spacing:-.015em;margin:12px 0 16px}
+  .sec-head p{font-size:19px;color:var(--steel);font-weight:300}
+  .dark .sec-head p{color:#b8c7cd}
+
+  /* tiers */
+  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .tier{border:1px solid var(--line);border-radius:var(--r);padding:32px;background:#fff;display:flex;flex-direction:column}
+  .tier.feature{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .tier .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--mist)}
+  .tier.feature .tag{color:#9db3bc}
+  .tier h3{font-size:26px;font-weight:600;line-height:1.15;margin:12px 0 10px}
+  .tier .who{font-size:15px;color:var(--mist);margin-bottom:22px}
+  .tier.feature .who{color:#b8c7cd}
+  .tier ul{list-style:none;margin-top:auto;border-top:1px solid var(--line);padding-top:18px}
+  .tier.feature ul{border-color:rgba(255,255,255,.18)}
+  .tier li{font-size:15px;padding:6px 0 6px 22px;position:relative}
+  .tier li:before{content:"";position:absolute;left:0;top:14px;width:10px;height:2px;background:var(--accent)}
+  .tier .gift{font-size:18px;font-weight:500;margin-bottom:6px}
+
+  /* specifier pack */
+  .pack{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:stretch}
+  .pack .card{border-radius:var(--r);overflow:hidden;background:#fff;border:1px solid var(--line)}
+  .postcard img{width:100%;aspect-ratio:3/2;object-fit:cover}
+  .pack .body{padding:26px 28px}
+  .pack h4{font-size:20px;font-weight:600;margin-bottom:6px}
+  .pack p{color:var(--steel);font-size:15.5px}
+  .pack-right{display:grid;grid-template-rows:1fr auto;gap:28px}
+  .bottle{display:grid;grid-template-columns:130px 1fr;align-items:center}
+  .bottle .img{background:#fff;padding:18px 10px;height:100%;display:flex;align-items:center;justify-content:center;border-right:1px solid var(--line)}
+  .bottle .img img{max-height:260px;width:auto}
+  .choc .body{display:flex;gap:18px;align-items:flex-start}
+  .choc .sq{flex:none;width:58px;height:58px;border-radius:10px;background:linear-gradient(135deg,#3a2418,#6b4330);display:flex;align-items:center;justify-content:center;color:#f3e3c9;font-weight:600;font-size:13px;letter-spacing:.04em}
+  .pill{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px;margin-top:12px}
+  .pill.warn{background:#fbeee2;color:var(--warn)}
+  .pill.ok{background:#e4f2eb;color:var(--good)}
+  .pill.info{background:#e7eef1;color:var(--steel)}
+  .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;border:1px solid var(--line);border-radius:var(--r);background:#fff;overflow:hidden}
+  .flow div{padding:22px 24px;border-right:1px solid var(--line)}
+  .flow div:last-child{border-right:0}
+  .flow b{display:block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);font-weight:600;margin-bottom:6px}
+  .flow span{font-size:15.5px}
+
+  /* suppliers */
+  .supplier-head{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:end;margin-bottom:40px}
+  .supplier-head h2{font-size:clamp(32px,4vw,46px);font-weight:600;letter-spacing:-.015em;line-height:1.05;margin-top:10px}
+  .deal{background:var(--navy);color:#fff;border-radius:var(--r);padding:24px 26px}
+  .deal .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9db3bc;font-weight:600}
+  .deal .v{font-size:22px;font-weight:600;margin:4px 0 6px;line-height:1.2}
+  .deal p{font-size:14.5px;color:#c4d2d7}
+  .deal.urgent{background:#7a2f16}
+  .deal.urgent .k{color:#f2c7b3}
+  .deal.urgent p{color:#f6d9cc}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .h{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+  .h .ph{position:relative;aspect-ratio:4/3;background:#eef1f2;overflow:hidden}
+  .h .ph img{width:100%;height:100%;object-fit:cover}
+  .h .letter{position:absolute;top:14px;left:14px;width:38px;height:38px;border-radius:50%;background:var(--ink);color:#fff;font-weight:600;display:flex;align-items:center;justify-content:center;font-size:17px}
+  .h .for{position:absolute;bottom:14px;left:14px;background:rgba(255,255,255,.94);font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:99px;color:var(--ink)}
+  .h .body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
+  .h h3{font-size:20px;font-weight:600;line-height:1.2}
+  .h .price{display:flex;align-items:baseline;gap:10px;margin:10px 0 12px}
+  .h .price b{font-size:28px;font-weight:600}
+  .h .price s{color:var(--mist);font-size:15px}
+  .h .price em{font-style:normal;font-size:13px;color:var(--good);font-weight:600}
+  .h p{font-size:14.5px;color:var(--steel)}
+  .h .hl{margin-top:auto;padding-top:14px;font-size:13.5px;font-weight:500;color:var(--ink)}
+  .h .hl:before{content:"★ ";color:var(--accent)}
+  .h a.src{font-size:13px;color:var(--mist);margin-top:10px;text-decoration:none}
+  .h a.src:hover{text-decoration:underline}
+  .noalc{background:#e4f2eb;color:var(--good)}
+
+  .alts{margin-top:26px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .alt-item{border:1px dashed #b9c5ca;border-radius:var(--r);padding:18px 20px;font-size:14.5px;color:var(--steel)}
+  .alt-item b{color:var(--ink);font-weight:600;display:block;font-size:15.5px;margin-bottom:2px}
+  .alts-label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mist);font-weight:600;margin-top:44px}
+
+  .notes{margin-top:30px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .note{font-size:14.5px;color:var(--steel);border-top:2px solid var(--ink);padding-top:12px}
+  .note b{color:var(--ink);display:block;margin-bottom:2px}
+
+  /* compare */
+  table{width:100%;border-collapse:collapse;font-size:15.5px}
+  th,td{text-align:left;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.12);vertical-align:top}
+  thead th{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#9db3bc;font-weight:600}
+  tbody th{font-weight:500;color:#b8c7cd;width:22%}
+  td{color:#fff}
+  td .y{color:#8fd3b0;font-weight:600}
+  td .n{color:#f0b48f;font-weight:600}
+  .verdict{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .verdict div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--r);padding:24px 26px}
+  .verdict b{display:block;font-size:18px;margin-bottom:6px}
+  .verdict p{color:#c4d2d7;font-size:15px}
+
+  /* next */
+  .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+  .steps div{padding:24px 22px;border-right:1px solid var(--line)}
+  .steps div:last-child{border-right:0}
+  .steps .when{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mist);font-weight:600}
+  .steps .when.now{color:#a33d1a}
+  .steps h4{font-size:17px;font-weight:600;margin:8px 0 6px;line-height:1.25}
+  .steps p{font-size:14px;color:var(--steel)}
+  .decide{margin-top:44px;display:grid;grid-template-columns:repeat(2,1fr);gap:14px 28px}
+  .decide label{display:flex;gap:14px;align-items:flex-start;font-size:16px;padding:14px 0;border-bottom:1px solid var(--line);cursor:pointer}
+  .decide input{margin-top:5px;width:18px;height:18px;accent-color:var(--navy);flex:none}
+
+  footer{padding:40px 0;font-size:13px;color:var(--mist);border-top:1px solid var(--line)}
+
+  @media (max-width:960px){
+    .tiers,.grid,.alts,.notes,.verdict{grid-template-columns:1fr}
+    .pack,.supplier-head,.hero .wrap{grid-template-columns:1fr}
+    .hero .meta{grid-template-columns:1fr 1fr}
+    .flow,.steps{grid-template-columns:1fr}
+    .flow div,.steps div{border-right:0;border-bottom:1px solid var(--line)}
+    .decide{grid-template-columns:1fr}
+    nav ul{display:none}
+    section{padding:72px 0}
+  }
+  @media print{nav{display:none}section{padding:48px 0;break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">Airocle <span>· Client Gifting 2026</span></div>
+    <ul>
+      <li><a href="#tiers">Approach</a></li>
+      <li><a href="#specifiers">Specifier pack</a></li>
+      <li><a href="#milly">Milly &amp; Henry</a></li>
+      <li><a href="#emporium">Hamper Emporium</a></li>
+      <li><a href="#compare">Compare</a></li>
+      <li><a href="#next">Next steps</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">End-of-year client gifting · Christmas 2026</div>
+      <h1>Thanking the people who built our first 100 years.</h1>
+      <p>We'll gift clients in three tiers, and pick one hamper supplier for our top clients.</p>
+    </div>
+    <div class="art"><img src="img/postcard-100.jpg" alt="Airocle 100 Years"></div>
+    <div class="meta">
+      <div><b>3</b><small>client tiers</small></div>
+      <div><b>$120–150</b><small>cap per top-client hamper</small></div>
+      <div><b>5 options</b><small>clients choose their own hamper</small></div>
+      <div><b>Mid–late next week</b><small>client email goes out</small></div>
+    </div>
+  </div>
+</header>
+
+<!-- TIERS -->
+<section id="tiers">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="num">01 · The approach</div>
+      <h2>Each tier gets a different gift.</h2>
+      <p>Top clients choose their own hamper. Specifiers get a personal, handwritten note. Everyone else gets a lighter-touch thank-you.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier feature">
+        <div class="tag">Tier 1</div>
+        <h3>Top clients</h3>
+        <div class="who">Highest purchases in calendar year 2026</div>
+        <div class="gift">Premium Christmas hamper, client's choice</div>
+        <ul>
+          <li>We email 5 hamper options and they reply with a letter</li>
+          <li>Budget capped at $120–150 per hamper</li>
+          <li>Airocle-branded card and ribbon where offered</li>
+          <li>Delivered direct to each address</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <div class="tag">Tier 2</div>
+        <h3>Architects, engineers, consultants &amp; designers</h3>
+        <div class="who">The specifiers who put Airocle on the drawings</div>
+        <div class="gift">Handwritten 100-year postcard and Airocle chocolate</div>
+        <ul>
+          <li>Personal handwritten note on the "Airocle 100 Years" postcard</li>
+          <li>Airocle-branded chocolate</li>
+          <li>Key specifiers also get a navy YETI bottle</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <div class="tag">Tier 3</div>
+        <h3>All other contacts</h3>
+        <div class="who">Wider customer and contact base</div>
+        <div class="gift">To discuss in this meeting</div>
+        <ul>
+          <li>For example, a Christmas / 100-year email from HubSpot</li>
+          <li>Minimal cost, maximum reach</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIFIERS -->
+<section id="specifiers" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="num">02 · Tier 2 · Specifier pack</div>
+      <h2>A handwritten note from 100 years of Airocle.</h2>
+      <p>It's small and personal, and it carries the brand. The postcard is the hero piece, and the bottle is an upgrade for our most important specifiers.</p>
+    </div>
+    <div class="pack">
+      <div class="card postcard">
+        <img src="img/postcard-100.jpg" alt="Airocle 100 Years postcard cover">
+        <div class="body">
+          <h4>Airocle 100 Years postcard</h4>
+          <p>Our 100-year cover with a handwritten message from the account owner on the back. Every specifier gets one.</p>
+          <span class="pill info">Everyone in Tier 2</span>
+        </div>
+      </div>
+      <div class="pack-right">
+        <div class="card bottle">
+          <div class="img"><img src="img/yeti-navy.jpg" alt="YETI navy water bottle"></div>
+          <div class="body">
+            <h4>YETI bottle, Navy</h4>
+            <p>Navy stainless bottle with a handle cap, 25.9 × 7.7 cm. The navy matches the Airocle palette, and they'll use it every day for years.</p>
+            <span class="pill info">Selected key specifiers only</span>
+          </div>
+        </div>
+        <div class="card choc">
+          <div class="body">
+            <div class="sq">AIR</div>
+            <div>
+              <h4>Airocle-branded chocolate</h4>
+              <p>Existing branded stock, last seen in Hannah's office.</p>
+              <span class="pill warn">Action: check stock quantity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flow">
+      <div><b>1 · List</b><span>Sales confirms the specifier list and flags who gets a YETI</span></div>
+      <div><b>2 · Stock</b><span>Count the chocolate and order YETIs for the key list</span></div>
+      <div><b>3 · Write</b><span>Account owners handwrite their own postcards</span></div>
+      <div><b>4 · Send</b><span>Post or hand-deliver before the Christmas shutdown</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- MILLY & HENRY -->
+<section id="milly">
+  <div class="wrap">
+    <div class="supplier-head">
+      <div>
+        <div class="num eyebrow" style="color:var(--mist)">03 · Tier 1 · Hamper option A</div>
+        <h2>Milly &amp; Henry</h2>
+        <p style="color:var(--steel);font-size:18px;margin-top:12px;font-weight:300">A bulk corporate specialist, with keepsake pieces (decanters, glassware), spirits options, a free logo gift card on every hamper and a dedicated account manager.</p>
+      </div>
+      <div class="deal urgent">
+        <div class="k">Early Bird Double Deal · ends today, Fri 13 Nov</div>
+        <div class="v">Up to 25% off, plus a free $85 hamper for every $800 spent</div>
+        <p>Bulk orders only. We need to call 1300 737 902 today and ask them to hold the pricing while clients choose.</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <article class="h">
+        <div class="ph"><img src="img/mh-moet.jpg" alt="Moët Christmas Hamper"><span class="letter">A</span><span class="for">Champagne · prestige</span></div>
+        <div class="body">
+          <h3>Moët Christmas Hamper</h3>
+          <div class="price"><b>$150</b><s>$200</s><em>Early Bird</em></div>
+          <p>Moët &amp; Chandon Brut Impérial NV with chocolate-coated pretzels, lollies, rice snacks and peanuts.</p>
+          <div class="hl">The best-known bottle on offer</div>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="img/mh-entertainer.jpg" alt="Entertainer Christmas Hamper"><span class="letter">B</span><span class="for">Wine · entertaining</span></div>
+        <div class="body">
+          <h3>Entertainer Christmas Hamper</h3>
+          <div class="price"><b>$125</b><s>$160</s><em>Early Bird</em></div>
+          <p>Bertons Metal Label Black Shiraz and Pinot Grigio, a stemless wine glass set, cookies, chocolates and savoury snacks.</p>
+          <div class="hl">Keepsake glassware</div>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="img/mh-decanter.jpg" alt="Chivas Decanter Christmas Hamper"><span class="letter">C</span><span class="for">Spirits</span></div>
+        <div class="body">
+          <h3>Decanter Hamper: Chivas or Maker's Mark</h3>
+          <div class="price"><b>$150</b><s>$200</s><em>Early Bird</em></div>
+          <p>Chivas Regal 12 or Maker's Mark bourbon with a glass decanter, two tumblers, a marble coaster set and nibbles.</p>
+          <div class="hl">Stays on the shelf all year</div>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="img/mh-indulgence.jpg" alt="Indulgence Christmas Hamper"><span class="letter">D</span><span class="for">Wine · to share</span></div>
+        <div class="body">
+          <h3>Indulgence Christmas Hamper</h3>
+          <div class="price"><b>$150</b><s>$190</s><em>Early Bird</em></div>
+          <p>Three bottles (6Ft6 Pinot Noir, Pinot Gris and Prosecco) with shortbread, chocolate almonds and savoury snacks.</p>
+          <div class="hl">Enough to share with their team</div>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="img/mh-feast.jpg" alt="Feast Christmas Hamper"><span class="letter">E</span><span class="for noalc">Alcohol-free · office share</span></div>
+        <div class="body">
+          <h3>Feast Christmas Hamper</h3>
+          <div class="price"><b>$125</b><s>$165</s><em>Early Bird</em></div>
+          <p>18 items: a chocolatier assortment, cookies, white-chocolate raspberries, lollies, crackers, savoury snacks and chai tea.</p>
+          <div class="hl">Suits non-drinkers and whole offices</div>
+        </div>
+      </article>
+      <article class="h" style="justify-content:center;background:var(--paper)">
+        <div class="body" style="justify-content:center">
+          <div class="eyebrow" style="color:var(--mist)">Why Milly &amp; Henry</div>
+          <h3 style="margin:10px 0 14px;font-size:22px">The value is in the bottle and the keepsake.</h3>
+          <p>Most of the filler is generic snack brands (Gourmet Estate, Cocoa Collections). The decanters, glassware and bottles are what make these feel premium.</p>
+          <p style="margin-top:10px">Branded boxes and ribbon come standard from 100+ units. Smaller orders can still be branded, so we need to ask what's included.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="alts-label">Alternates</div>
+    <div class="alts">
+      <div class="alt-item"><b>Christmas Cheer · $150</b>Alcohol-free, 21 items including olives, salsa and crispbread. A bigger version of E.</div>
+      <div class="alt-item"><b>Pamper · $150</b>Tempus Two sparkling rosé, waffle bathrobe, slippers, candle and bath salts. A self-care pick.</div>
+      <div class="alt-item"><b>Four Pillars Gin Decanter · $160</b>Gin version of C. Slightly over the cap.</div>
+    </div>
+  </div>
+</section>
+
+<!-- HAMPER EMPORIUM -->
+<section id="emporium" class="alt">
+  <div class="wrap">
+    <div class="supplier-head">
+      <div>
+        <div class="num eyebrow" style="color:var(--mist)">04 · Tier 1 · Hamper option B</div>
+        <h2>The Hamper Emporium</h2>
+        <p style="color:var(--steel);font-size:18px;margin-top:12px;font-weight:300">Higher-quality gourmet food from named brands (Maggie Beer, The Woods Farm, Penfolds), with custom ribbon, logo branding and a corporate ordering platform.</p>
+      </div>
+      <div class="deal">
+        <div class="k">Live on site this week</div>
+        <div class="v">BLACK20 · 20% off (Black Friday), or EARLY10 · 10% off</div>
+        <p>Free shipping only on hampers <u>over</u> $150. Below that it's $9.95 per hamper. The codes are likely time-limited, so we need to confirm the terms.</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <article class="h">
+        <div class="ph"><img src="https://cdn.shopify.com/s/files/1/0659/8230/0336/files/914a-1ChristmasCelebrationwithMoetHamper_Image1_c43bec06-78fa-404f-80bf-57deb0c9cfc0.jpg?v=1783916816&width=900" alt="Christmas Celebration with Moët Hamper"><span class="letter">A</span><span class="for">Champagne · prestige</span></div>
+        <div class="body">
+          <h3>Christmas Celebration with Moët</h3>
+          <div class="price"><b>$149</b><em>$119.20 with BLACK20</em></div>
+          <p>Moët NV with bon bons, salted caramel popcorn and cinnamon pretzels. 5 items.</p>
+          <div class="hl">Lighter on food, all about the bottle</div>
+          <a class="src" href="https://www.thehamperemporium.com.au/products/christmas-celebration-with-moet-hamper" target="_blank">View on site →</a>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="https://cdn.shopify.com/s/files/1/0659/8230/0336/files/911a-4IndulgenceChristmaswithPenfoldsRedWine_image1_159f84a7-4adb-498a-88c4-832dd63a9387.jpg?v=1789612891&width=900" alt="Christmas Indulgence with Penfolds"><span class="letter">B</span><span class="for">Red wine</span></div>
+        <div class="body">
+          <h3>Christmas Indulgence with Penfolds</h3>
+          <div class="price"><b>$149</b><em>$119.20 with BLACK20</em></div>
+          <p>Penfolds Max's plus 9 gourmet items: Woods Farm mince tarts, brittle, artisan crackers, Maggie Beer quince paste and brandy butter.</p>
+          <div class="hl">Best value in this set</div>
+          <a class="src" href="https://www.thehamperemporium.com.au/products/christmas-indulgence-hamper-with-penfolds-red-wine" target="_blank">View on site →</a>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="https://cdn.shopify.com/s/files/1/0659/8230/0336/files/MBX-901ChristmasTreatHamperwithChandon_Image1_8fbac10d-d928-4b60-a327-655b3cde9913.jpg?v=1784086503&width=900" alt="Christmas Treats with Chandon"><span class="letter">C</span><span class="for">Sparkling · foodie</span></div>
+        <div class="body">
+          <h3>Christmas Treats with Chandon</h3>
+          <div class="price"><b>$139</b><em>$111.20 with BLACK20</em></div>
+          <p>Chandon Brut with a Maggie Beer selection: pudding, brandy butter, quince and plum-shiraz pastes, rosemary crackers, fig and ginger.</p>
+          <div class="hl">The listing says free shipping</div>
+          <a class="src" href="https://www.thehamperemporium.com.au/products/christmas-treats-hamper-with-chandon" target="_blank">View on site →</a>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="https://cdn.shopify.com/s/files/1/0659/8230/0336/files/912a_Christmas_Decadence_Hamper_Image1.jpg?v=1783921107&width=900" alt="Christmas Decadence Hamper"><span class="letter">D</span><span class="for noalc">Alcohol-free · family</span></div>
+        <div class="body">
+          <h3>Christmas Decadence</h3>
+          <div class="price"><b>$149</b><em>$119.20 with BLACK20</em></div>
+          <p>10 items: fruit and nut cake, iced cake slices, a 400g pudding, gingerbread, bon bons and Maggie Beer pastes. Contains nuts.</p>
+          <div class="hl">A traditional Christmas, alcohol-free</div>
+          <a class="src" href="https://www.thehamperemporium.com.au/products/christmas-decadence-hamper" target="_blank">View on site →</a>
+        </div>
+      </article>
+      <article class="h">
+        <div class="ph"><img src="https://cdn.shopify.com/s/files/1/0659/8230/0336/files/911a-NOTT8010XmasIndulgenceBrandedGiftPack_Image1.jpg?v=1760662394&width=900" alt="Corporate Christmas Gift Hamper"><span class="letter">E</span><span class="for noalc">Alcohol-free · branded</span></div>
+        <div class="body">
+          <h3>Corporate Christmas Gift Hamper</h3>
+          <div class="price"><b>$149</b><em>$119.20 with BLACK20</em></div>
+          <p>8 sweet and savoury treats plus a recycled zip tote printed with the Airocle logo.</p>
+          <div class="hl">The tote keeps our brand in use after Christmas</div>
+          <a class="src" href="https://www.thehamperemporium.com.au/products/corporate-christmas-gift-hamper" target="_blank">View on site →</a>
+        </div>
+      </article>
+      <article class="h" style="justify-content:center;background:#fff">
+        <div class="body" style="justify-content:center">
+          <div class="eyebrow" style="color:var(--mist)">Why Hamper Emporium</div>
+          <h3 style="margin:10px 0 14px;font-size:22px">Better food from brands people recognise.</h3>
+          <p>Every option is full of named artisan products. They offer custom ribbon and logo branding, and their corporate platform handles bulk orders to multiple addresses.</p>
+          <p style="margin-top:10px">Hampers at $149 pay $9.95 shipping, which puts them just over the cap unless a code applies.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="alts-label">Alternates</div>
+    <div class="alts">
+      <div class="alt-item"><b>Christmas Bites with Sparkling Wine · $129</b>Mr Riggs sparkling with mince tarts, pudding and bon bons. The budget option.</div>
+      <div class="alt-item"><b>Decadence with Red Wine · $179</b>11 items with Mr Riggs McLaren Vale Shiraz. In budget only with BLACK20 ($143.20).</div>
+      <div class="alt-item"><b>Contents may vary</b>The supplier notes contents can change with demand, so the email should say "includes…", not list exact items.</div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section id="compare" class="dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="num">05 · Side by side</div>
+      <h2>Which supplier for Tier 1?</h2>
+      <p>Both can deliver five options at or under $150. The difference is what's in the box and how firm the deal is.</p>
+    </div>
+    <table>
+      <thead><tr><th></th><th>Milly &amp; Henry</th><th>The Hamper Emporium</th></tr></thead>
+      <tbody>
+        <tr><th>Price for 5 options</th><td>$125–150 (Early Bird)</td><td>$139–149 list · $111–119 with BLACK20</td></tr>
+        <tr><th>Current deal</th><td>Up to 25% off plus a free $85 hamper per $800 · <span class="n">ends today</span></td><td>BLACK20 (20%) / EARLY10 (10%) · <span class="n">end date unconfirmed</span></td></tr>
+        <tr><th>Shipping</th><td>Not stated in catalogue, so ask</td><td>$9.95 per hamper under $150, free over $150</td></tr>
+        <tr><th>Food quality</th><td>Mostly generic snack brands</td><td><span class="y">Named artisan brands</span> (Maggie Beer, Woods Farm)</td></tr>
+        <tr><th>Keepsakes</th><td><span class="y">Decanter and tumblers, wine glasses</span></td><td>Logo-printed tote (option E)</td></tr>
+        <tr><th>Drinks range</th><td><span class="y">Champagne, wine, whisky, bourbon, gin</span></td><td>Champagne, sparkling, red</td></tr>
+        <tr><th>Alcohol-free</th><td>Feast, Christmas Cheer</td><td>Decadence, Corporate (with tote)</td></tr>
+        <tr><th>Branding</th><td>Free logo gift card on every order · boxes and ribbon from 100+ units</td><td>Custom ribbon and logo branding</td></tr>
+        <tr><th>Service</th><td>Dedicated account manager · multi-address</td><td>Online corporate platform · multi-address</td></tr>
+      </tbody>
+    </table>
+    <div class="verdict">
+      <div><b>Choose Milly &amp; Henry if…</b><p>they'll hold Early Bird pricing until clients have chosen. You get more variety for the money, and keepsakes keep Airocle in view all year.</p></div>
+      <div><b>Choose Hamper Emporium if…</b><p>Milly &amp; Henry won't hold the deal, or we want the best food. With BLACK20 they come in at a similar price.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT -->
+<section id="next">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="num">06 · Next steps</div>
+      <h2>What we need to decide today.</h2>
+    </div>
+    <div class="steps">
+      <div><div class="when now">Today · Fri 13 Nov</div><h4>Call Milly &amp; Henry</h4><p>Ask them to lock Early Bird pricing for an estimated quantity, and ask about shipping and ribbon.</p></div>
+      <div><div class="when">Early next week</div><h4>Pick the supplier and 5 options</h4><p>Confirm the Tier 1 list from 2026 purchase data, plus the Tier 2 specifier list.</p></div>
+      <div><div class="when">Mid–late next week</div><h4>Send the client email</h4><p>Five lettered options. Clients reply with a letter, delivery address and card name.</p></div>
+      <div><div class="when">Reply deadline</div><h4>Place the bulk order</h4><p>Anyone who doesn't reply gets a default hamper. Upload addresses and card messages.</p></div>
+      <div><div class="when">Before shutdown</div><h4>Deliver</h4><p>Hampers ship direct. Postcards are written and sent alongside.</p></div>
+    </div>
+
+    <div class="decide">
+      <label><input type="checkbox"> Tier 1 supplier: Milly &amp; Henry or Hamper Emporium</label>
+      <label><input type="checkbox"> The final 5 hamper options for the client email</label>
+      <label><input type="checkbox"> Tier 1 client list and estimated quantity</label>
+      <label><input type="checkbox"> Default hamper for clients who don't reply</label>
+      <label><input type="checkbox"> Tier 2 specifier list, and who gets a YETI</label>
+      <label><input type="checkbox"> Chocolate stock count (Hannah's office)</label>
+      <label><input type="checkbox"> Tier 3 approach (e.g. a Christmas email)</label>
+      <label><input type="checkbox"> Total budget sign-off</label>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Internal working document · Airocle (IVR Group Pty Ltd) · Prices captured 13 Nov 2026 from supplier catalogue and website, so confirm with each supplier before ordering.</div>
+</footer>
+
+</body>
+</html>
